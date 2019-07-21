@@ -1,0 +1,71 @@
+{% extends "component/layout.html" %}
+{% load crispy_forms_tags %}
+
+{% block loader %}
+  {% include "component/loader.html" %}
+  
+  
+  {% endblock loader %}
+      {% include "component/loader.html" %}
+
+  <!--This is header-->
+  {% block header %}
+  <div class="container">
+      <div class="col-md-6 text center" style="margin-left: 25%;">
+         <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+        </div>
+        <button type="submit" class="btn btn-danger text-center" style="margin-left: 47%;">Login</button>
+  </form>
+    </div>
+{% endblock header}
+  
+  <!-- end site-header -->
+  
+  {% block banner %}
+      {% include "component/banner.html" %}
+  
+  {% endblock banner %}
+      
+  <!-- end banner -->
+
+  {% block menu %}
+      {% include "component/menu.html" %}
+  
+  {% endblock menu %}
+
+  
+  {% block extramenu %}
+      {% include "component/extramenu.html" %}
+
+  {% endblock extramenu %}
+
+  {% block gallery %}
+      {% include "component/gallery.html" %}
+ 
+  {% endblock gallery %}
+
+  {% block price %}
+      {% include "component/price.html" %}
+  
+  {% endblock price %}
+
+  {% block reservation %}
+      {% include "component/reservation.html" %}
+ 
+  {% endblock reservation %}
+
+  {% block footer %}
+      {% include "component/footer.html" %}
+  
+  {% endblock footer %}
+
+
+
+
+
+  {% block scripts %}
+      {% include "component/scripts.html" %}
+  
+  {% endblock scripts %}

@@ -1,0 +1,99 @@
+first of all we have setup following things:
+1. Database
+2. Template location
+3. Static file location
+
+lets begin from Database
+Database setup already done
+
+next about Template
+done
+
+next Static file location
+look carefully
+
+i want to  open this link for copy static settings
+
+there is two types of file  setting 
+first, static dir wich put in setting.py  ==> done
+
+and another root static ==> done
+which is put in the url 
+copy from the same link  or page 
+
+Next we have test by run our project 
+it's working or not ?
+
+
+Before testing we setup about it index page from view and url
+it's work but not  work javascript and css lets 
+fixed this problem
+Before that we  have manage all template files in proper way
+like css , fonts , js  and images
+these are all move to static
+
+
+lets purify the index page for working  css and javascript
+suna hai yo chai ma milauxu {% static wala k hai} yo milya pxe template run hunxa
+
+hunxa timi hera  huss
+roka la ma khana khanxu
+
+
+
+look carefully there no loaded static 
+
+
+
+
+you have to slicing this  template
+like  header , footer etc
+
+i think , you can it 
+
+lets check how much pic are not  loaded at your index page
+only two images left to maintain static one  ico then another  logo
+not differented 
+
+slicing garna saknu hunxa kin dekhai dinu parxa ???
+sakxu kk banuna vndinu
+
+
+ok start  with music 
+
+
+why sound is not coming 
+
+ok left it
+
+start project 
+
+
+in template folder we have to make one folder containg  all component or  partial  file
+lets create file  in template
+
+
+
+first  we have to observe  which component are  available on our site
+or template
+
+
+lets watch in index
+
+
+
+
+alchhi manxe hunu hunxa ki sano manxe bijhna gahro vayo
+
+kina
+
+watch in code of index
+ok left it 
+focus on slicing i will them later
+
+
+O miss bore lagyo  gallery pni chh  footer pni chh scripts oni chh 
+aba  afai slicing garnu na hae 
+
+huss
+la
